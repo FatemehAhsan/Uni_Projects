@@ -1,0 +1,314 @@
+/* setting variables for colors */
+:root{
+  --white: white;
+  --black: black;
+  --lightblack: #18141c;
+  --yellow: #ebbc1c;
+  --grey: grey;
+  --lightgrey: rgb(176, 176, 176);
+  --red: red;
+  --orange:  #e68c1b;
+  --purple: #6e3cc4;
+}
+/* set properties for background and main block for HTML page */
+.main{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+}
+/* set background image for dark theme */
+.bgb{
+    background-image: url(assets/background.png);
+}
+/* set background image for light theme */
+.bgl{
+    background-image: url(assets/backgroundl.jpg);
+}
+/* set background image and its properties for search page */
+.search{
+    background-image: url(assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* set properties for title text */
+.title{
+    font-size: 50px;
+    font-family: 'poppins', 'sans-serif';
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 10%;
+    margin-top: 150px;
+}
+/* set properties for search title text */
+.serachtitle{
+    font-size: 50px;
+    color: var(--white);
+    font-weight: bold;
+    line-height: 5%;
+    margin-bottom: 30px;
+}
+/* set properties for list title text */
+.listtitle{
+    font-size: 25px;
+    color: var(--black);
+    line-height: 5%;
+    margin-bottom: 30px;
+}
+/* set yellow color for several use */
+.yellw{
+    color: var(--orange);
+}
+/* set yellow background for several use */
+.yellwlt{
+    background-color: var(--yellow);
+}
+/* set content properties for Home page */
+.content{
+    font-size: 12px;
+    font-family: 'poppins', 'sans-serif';
+    margin-top: 0px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+/* set font color for drak theme */
+.clrb{
+    color: var(--white);
+}
+/* set properties for content of search element*/
+.serachcontent{
+    font-size: 10px;
+    color: var(--lightgrey);
+    margin-bottom: 100px;
+}
+/* make a vertical flex with center justfiy and align items */
+.verflex{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+/* make properties for left card of Home Page */
+.left{
+    margin-left: 50px; 
+    margin-right: 100px;  
+}
+/* make properties for right card of Home Page */
+.right{
+    margin-left: 100px;
+    width: 450px;   
+}
+/* make a horizontal flex with some specific properties */
+.horflex{
+    display: flex;
+    column-gap: 20px;
+    margin-left: 50px;
+}
+/* set properties for SEARCH MORE button in Home page */
+.searchbutton{
+    background-color: var(--orange);
+    color: var(--black);
+    font-family: 'poppins', 'sans-serif';
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+    border: 0px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 6px;
+    align-self: flex-start;
+}
+/* set properties for CHANGE THEME button in Home page*/
+.changethemebutton{
+    align-self: flex-end;
+    background-color: inherit;
+    font-family: 'poppins', 'sans-serif';
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-bottom: 400px;
+    margin-top: 20px;
+}
+/* set properties for border color and font color of dark theme*/
+.clrbrclr{
+    color: var(--white);
+    border-color: var(--lightgrey);   
+}
+/* set properties for last 3 buttons in Home page*/
+.last3searchbutton{
+    background-color: inherit;
+    color: var(--black);
+    border: 1px solid var(--black);
+    font-family: 'poppins', 'sans-serif';
+    font-size: 10px;
+    height: 50px;
+    border-radius: 5px;
+}
+/* set properties for border color in dark theme */
+.clrbrbt{
+    border: 1px solid var(--white);   
+}
+/* set properties for list div in Search Page */
+.list{
+    background-color: var(--white);
+    color: var(--white);
+}
+/* set properties for list contents in Search Page */
+.listcontent{
+    width: 800px;
+    color: var(--black);
+}
+/* set properties for list title in Search Page. it's a horizontal flex*/
+.listhorflex{
+    display: flex;
+    column-gap: 130px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* set properties for first element in every row of list in Search Page. it has a specific margin*/
+.firstelem{
+    margin-left: 15px;
+    margin-right: 150px;
+}
+/* set properties for icon images*/
+.icon{
+    width: 40px;
+    height: 40px;
+}
+/* set properties for icon image divs*/
+.icondiv{
+    display: flex;
+    width: 60px;
+}
+/* set properties for Cryptocurrency div for items*/
+.crpcrnc{
+    align-self: flex-start;
+    margin-left: 40px;
+    min-height: 500px;
+}
+/* set properties for symbol and name block for each found Cryptocurrency*/
+.symname{
+    line-height: 1px;
+    align-items: flex-start;
+    align-self:flex-end;
+    width: 50px;
+}
+/* set properties for name for each found Cryptocurrency*/
+.name{
+    font-size: 15px;
+    color: var(--lightgrey);
+}
+/* set properties for 24h Change for each found Cryptocurrency*/
+.change{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 210px;
+    color: var(--red);
+}
+/* set properties for each horizontal line in Cryptocurrency list*/
+.listsprtr{
+    height: 0.5px;
+    border-width: 0;
+    color: var(--grey);
+    background-color: var(--grey);
+    margin-left: 50px;
+    width: 780px;
+}
+/* set properties for row in Cryptocurrency list*/
+.listrow{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 820px;
+    text-decoration: none;
+    color: var(--black);
+}
+/* set properties for Market Cap for each found Cryptocurrency*/
+.mrktcp{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 220px;
+}
+/* set properties for Price for each found Cryptocurrency*/
+.price{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 230px;
+}
+/* set properties for name for each last 3 Cryptocurrencys in Home Page */
+.nameHome{
+    color: var(--orange);
+}
+/* set properties for icon image for each last 3 Cryptocurrencys in Home Page */
+.iconHome{
+    width: 30px;
+    height: 30px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 5px;
+}
+/* set properties for container block flex for each last 3 Cryptocurrencys in Home Page */
+.horflexlast3{
+    display: flex;
+    column-gap: 15px;
+}
+/* set properties for container block flex for last 3 Cryptocurrencys in Home Page */
+.horflexlast{
+    display: flex;
+    column-gap: 15px;
+}
+/* set properties for caption for each Cryptocurrency in MoreInfo Page */
+.cap{
+    font-weight: bold;
+    font-size: 25px;
+}
+/* set properties for details block for Cryptocurrencys in MoreInfo Page */
+.detail{
+    font-size: 20px;
+    margin-top: 50px;
+    min-height: 500px;
+}
+/* set properties for Navbar in Search and MoreInfo Pages */
+nav{
+    display: flex;
+    background-color: var(--white);
+    justify-content: space-evenly;
+    column-gap: 600px;
+}
+/* set properties for each Navbar item */
+.navItem{
+    color: var(--yellow);
+}
+/* set properties for background color for Navbar */
+.clrbgb{
+    background-color: var(--lightblack);
+}
+/* set properties for IE Final Project Link in Navbar */
+.navLink{
+    font-weight: bold;
+}
+/* set properties for Change Theme Button in Navbar */
+.navBtn{
+    background-color: unset;
+    border: 0;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/* set properties for any time we move our mouse on any button */
+button:hover{
+    background-color: var(--purple);
+}
+/* set properties for any time we focus on any button */
+button:focus{
+    background-color: var(--purple);
+}
+/* set properties for all Link elements to have no text-decoration */
+Link{
+    text-decoration: none;
+}
+/* set properties descrptions for each Cryptocurrency in MoreInfo Page */
+.desc{
+    margin: 20px;
+}
